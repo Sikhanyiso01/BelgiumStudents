@@ -11,6 +11,8 @@ public class Main {
 
         for (Student student : studentList.getStudents()){
             System.out.println(student);
+            System.out.println("------------------------------------");
+            System.out.println();
         }
 
         System.out.println("-----------------------------------------------------------");
@@ -19,7 +21,7 @@ public class Main {
         System.out.println("How many students you want to add? ");
         int numberOfStudent = Integer.parseInt(sc.nextLine());
 
-        for (int i = 0; i <= numberOfStudent; i++) {
+        for (int i = 1; i <= numberOfStudent; i++) {
             addStudent add = new addStudent();
             add.addStudentPrompt();
         }
