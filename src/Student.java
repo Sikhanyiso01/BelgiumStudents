@@ -18,8 +18,8 @@ public abstract class Student {
     public String toString(){
         return "Student Number: " + studentNumber + "\n" +
                 "Student Name:"  + studName + "\n " +
-                "Surname: " + surname + "\n" +
-                "course: " + course;
+                "Surname:    " + surname + "\n" +
+                "course:    "  + course;
 
     }
 }

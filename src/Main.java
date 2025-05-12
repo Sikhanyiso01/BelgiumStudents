@@ -30,5 +30,6 @@ public class Main {
         for (Student student : studentList.getStudents()){
             student.study();
         }
+
     }
 }
